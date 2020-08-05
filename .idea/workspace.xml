@@ -1,250 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73768282-be12-4c7a-bc80-6e6d609f73d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/GitNation.com.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/conference-multipass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style574ecd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/report.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content-log.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minifestcss.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/minifestjs.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Light.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/GothamPro.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg-about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg-lounge.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/bg_hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/decor_event.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/decor_event.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/face.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/footer-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/h-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/hero-img.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite-inline.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/conference-multipass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/android-chrome-384x384.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/favicon/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/h_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mission_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/multipass-og.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/og-back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/og-gitnation.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/smiles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/smiles.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.circleci/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.htmlhintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.htmlhintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.nvmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.sass-lint.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.sass-lint.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.storybook/addons.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.storybook/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/.storybook/index.stories.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/__tests__/__snapshots__/content-layer.test.js.snap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/__tests__/content-layer.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/__tests__/smoke.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/content-mock.json" beforeDir="false" afterPath="$PROJECT_DIR$/content-mock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/conference-settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/conference-settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/__snapshots__/index.html.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/__snapshots__/index.html.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/clean.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/copy.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/copy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/deploy.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/deploy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/nunjucks.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/nunjucks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/sass.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/sass.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/sprite-svg/_sprite-svg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/sprite-svg/_sprite-svg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/sprite-svg/sprite-svg.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/sprite-svg/sprite-svg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/svgo.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/svgo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/tasks/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/tasks/webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulp/util/handle-errors.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulp/util/handle-errors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/gulpfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro-Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro-Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro.woff" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/fonts/GothamPro.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/build/fonts/GothamPro.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/arrow-link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/arrow-link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/calendar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/calendar.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/face.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/face.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/fb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/fb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/focus_1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/focus_1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/focus_2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/focus_2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/focus_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/focus_3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/focus_4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/focus_4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/gh.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/gh.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/location.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/location.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/mail.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/mail.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/med.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/med.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/sl.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/sl.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/tw.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/tw.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/we.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/we.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/icons/yt.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/icons/yt.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/bg-about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/bg-about.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/bg-lounge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/bg-lounge.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/bg.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/bg.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/bg_hero.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/bg_hero.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/decor_event.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/decor_event.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/decor_event.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/decor_event.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/face.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/face.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/footer-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/footer-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/h-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/h-bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/hero-img.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/hero-img.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/smiles.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/smiles.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/sprite-inline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprite-inline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/img/sprite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/sprite.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/js/_classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_classes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/js/_header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/js/_smiles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_smiles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/js/_tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/_tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/generated/_sprite-svg-inline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/generated/_sprite-svg-inline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/generated/_sprite-svg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/generated/_sprite-svg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/helpers/_fonts.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_fonts.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/helpers/_helpers.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_helpers.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/helpers/_mixins.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_mixins.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/helpers/_normalize.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_normalize.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/helpers/_variables.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/helpers/_variables.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_about.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_about.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_all.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_all.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_buttons.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_buttons.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_citizenship.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_citizenship.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_content.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_content.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_events.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_events.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_focus.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_focus.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_footer.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_footer.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_forms.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_forms.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_h-menu.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_h-menu.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_header.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_header.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_hero.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_hero.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_info-loc.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_info-loc.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_info-stats.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_info-stats.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_main-nav.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_main-nav.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_menu-toggle.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_menu-toggle.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_mission.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_mission.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_pass-list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_pass-list.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_section.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_section.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_socials.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_socials.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_sponsors.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_sponsors.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_table.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_table.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_visa-card.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_visa-card.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/partials/_visas.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/partials/_visas.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/tpl/_sprite-tpl-css.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tpl/_sprite-tpl-css.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/tpl/_sprite-tpl-inline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/tpl/_sprite-tpl-inline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/sass/vendor/_slick.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/vendor/_slick.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/layouts/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/layouts/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/multipass.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/conference-multipass.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_about.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_citizenship.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_citizenship.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_events.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_focus.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_focus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_form-visa.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_form-visa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_h-menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_h-menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_hero.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_mission.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_mission.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_mixins.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_mixins.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_pass-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_pass-list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_sponsors.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_sponsors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_visa-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_visa-card.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/src/templates/partials/_visas.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/partials/_visas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/new/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/aws.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/event_photos.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/fr-text-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/graphqlsummit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/jetbrains.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/jsn-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/mlconf.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/netflix.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/nodejssummit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/partners_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/partners_15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/partners_19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/partners_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/partners_3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pic/qasummit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_media.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_normalize.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/partials/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/RS_logo_blck.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/jsn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/menu_btn.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/menu_close.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/mouse_white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/react-advanced.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/react-day-berlin.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/smile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_fb_clrd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_fb_gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_fb_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_m_clrd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_m_gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_tw_clrd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_tw_gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_tw_orange.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_yt_clrd.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/svg/socials_yt_gray.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="73768282-be12-4c7a-bc80-6e6d609f73d7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +79,7 @@
       <updated>1595406909838</updated>
       <workItem from="1595406911527" duration="1189000" />
       <workItem from="1595413229942" duration="272000" />
-      <workItem from="1596638544093" duration="6095000" />
+      <workItem from="1596638544093" duration="6342000" />
     </task>
     <task id="LOCAL-00001" summary="Comments out JSN">
       <created>1595407334403</created>
@@ -352,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595413371851</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New website">
+      <created>1596649176538</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596649176538</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,8 +136,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Comments out JSN" />
     <MESSAGE value="Rearranges conferences" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranges conferences" />
+    <MESSAGE value="New website" />
+    <option name="LAST_COMMIT_MESSAGE" value="New website" />
   </component>
 </project>
