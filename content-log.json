@@ -1,0 +1,611 @@
+{
+  "pagesPieceOfTexts": {
+    "hero__title": "<p>Giving<br>\nOpen Source<br>\nA Human Face.</p>\n",
+    "about__title": "Who we are?",
+    "about__intro": "We see technical excellence and engineering culture as a major values and a significant part of our mission which you are welcome to join.",
+    "about__desc": "<p>GitNation is a foundation with a goal to contribute to the development of the open source landscape by organizing events around open source technology that are meaningful, actual, and fun.</p>\n<p>Events connecting talented engineers, researchers and OSS authors.<br> We support open source projects by financing (apply for a grant) and we celebrate OSS success at the annual Open Source Awards ceremony.</p>\n<p>We are a foundation which celebrates diversity.<br> This is why for every conference we provide diversity scholarships for attending and run mentorships programs to help underrepresented in tech with getting to the stage as speakers.</p>\n<p>GitNation was founded by engineers and community activists.</p>\n",
+    "focus__title": "What we do",
+    "events__title": "Events",
+    "visas__title": "Multipass and citizenship",
+    "sponsors__title": "Partners",
+    "mission__title": "The mission",
+    "footer__info": "<p>Stichting Frontend Amsterdam<br>\nKvK 65751868<br>\nVAT NL856244740B01</p>\n<p>Eksterstraat 49<br>\n1021 EB Amsterdam</p>\n",
+    "citizenship__title": "Get access to 5 remote conferences and a number of exclusive perks for <s>500</s> 139 €*!",
+    "citizenship__desc": "<h5>Save more than <b class=\"highlighted\">360 €</b> on regular ticket prices (4x cheaper than buying separate); and in addition to included events, you will also get:</h5>\n<ul>\n<li>Discounts to hands-on workshops</li>\n<li>Discounts to hands-on workshops</li>\n<li>Early access to initial community ticket sales of in-person events (Super Early Bird)</li>\n<li>Exclusive swag sent internationally:<ul>\n<li>GitNation face mask (first 100 buyers)</li>\n<li>Conferences and tech sticker pack</li>\n</ul></li>\n<li>Full-access ticket remote event passes include:<ul>\n<li>Access to HD live stream, instant recordings and 3h workshops</li>\n<li>Advice lounge, chat with speakers and QnA sessions</li>\n<li>After-parties with speakers and other attendees</li>\n<li>And more!</li>\n</ul></li>\n</ul>\n",
+    "citizenship__tip": "* Early Bird price. All prices indicated on the page are exclusive of VAT tax, the tax percentage varies from country to country and for individual/business clients. Final price will be shown at checkout. Team multipass prices available on orders of 7+ items.<br>\n** Regular (without the pass) prices may change in future, but features of the pass and promised pass holder benefits are not subject to deductions of value. Expect only more features to be added!<br>\n*** Events pending announcement may have alternative final dates.",
+    "citizenship__btn": "<a href=\"https://ti.to/gitnation/conference-multipass\" class=\"btn\">Get your Multipass</a>",
+    "citizenship__sepTitle": "<h5>It gives free access to all our remote conferences<br> and 25% discount to any offline events.</h5>\n"
+  },
+  "pieceOfTexts": {
+    "hero__title": {
+      "id": "ckculsc6lnpqx09033yguoji0",
+      "key": "hero__title",
+      "renderStyle": "Standard_Markdown",
+      "markdown": "Giving  \nOpen Source  \nA Human Face.",
+      "html": "<p>Giving<br>\nOpen Source<br>\nA Human Face.</p>\n",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "about__title": {
+      "id": "ckcv3evaboe2f0b0920sz1sw6",
+      "key": "about__title",
+      "renderStyle": null,
+      "markdown": "Who we are?",
+      "html": "Who we are?",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "about__intro": {
+      "id": "ckcv3lwe3o6o90903mu7urgn3",
+      "key": "about__intro",
+      "renderStyle": null,
+      "markdown": "We see technical excellence and engineering culture as a major values and a significant part of our mission which you are welcome to join.",
+      "html": "We see technical excellence and engineering culture as a major values and a significant part of our mission which you are welcome to join.",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "about__desc": {
+      "id": "ckcv3mwj77ryu0b97dk7oq74i",
+      "key": "about__desc",
+      "renderStyle": "Standard_Markdown",
+      "markdown": "GitNation is a foundation with a goal to contribute to the development of the open source landscape by organizing events around open source technology that are meaningful, actual, and fun.\n\nEvents connecting talented engineers, researchers and OSS authors.<br> We support open source projects by financing (apply for a grant) and we celebrate OSS success at the annual Open Source Awards ceremony.\n\nWe are a foundation which celebrates diversity.<br> This is why for every conference we provide diversity scholarships for attending and run mentorships programs to help underrepresented in tech with getting to the stage as speakers.\n\nGitNation was founded by engineers and community activists.",
+      "html": "<p>GitNation is a foundation with a goal to contribute to the development of the open source landscape by organizing events around open source technology that are meaningful, actual, and fun.</p>\n<p>Events connecting talented engineers, researchers and OSS authors.<br> We support open source projects by financing (apply for a grant) and we celebrate OSS success at the annual Open Source Awards ceremony.</p>\n<p>We are a foundation which celebrates diversity.<br> This is why for every conference we provide diversity scholarships for attending and run mentorships programs to help underrepresented in tech with getting to the stage as speakers.</p>\n<p>GitNation was founded by engineers and community activists.</p>\n",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "focus__title": {
+      "id": "ckcv4qni4oey10b09cq1oskfg",
+      "key": "focus__title",
+      "renderStyle": "None_Default",
+      "markdown": "What we do",
+      "html": "What we do",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "events__title": {
+      "id": "ckcxmap3aqzy00903js6l1qmy",
+      "key": "events__title",
+      "renderStyle": null,
+      "markdown": "Events",
+      "html": "Events",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "visas__title": {
+      "id": "ckd061ewmjklk0b97hat1hh5p",
+      "key": "visas__title",
+      "renderStyle": null,
+      "markdown": "Multipass and citizenship",
+      "html": "Multipass and citizenship",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "sponsors__title": {
+      "id": "ckd09hub4uink0903nlr2fben",
+      "key": "sponsors__title",
+      "renderStyle": null,
+      "markdown": "Partners",
+      "html": "Partners",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "mission__title": {
+      "id": "ckd0a2ormjvah0b97ys2jz86w",
+      "key": "mission__title",
+      "renderStyle": null,
+      "markdown": "The mission",
+      "html": "The mission",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "footer__info": {
+      "id": "ckd1qb3h6vzjp0b09ov9lornf",
+      "key": "footer__info",
+      "renderStyle": "Standard_Markdown",
+      "markdown": "Stichting Frontend Amsterdam  \nKvK 65751868  \nVAT NL856244740B01\n\nEksterstraat 49  \n1021 EB Amsterdam",
+      "html": "<p>Stichting Frontend Amsterdam<br>\nKvK 65751868<br>\nVAT NL856244740B01</p>\n<p>Eksterstraat 49<br>\n1021 EB Amsterdam</p>\n",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "citizenship__title": {
+      "id": "ckdgo1c1ajy190b97rvcbdz5e",
+      "key": "citizenship__title",
+      "renderStyle": null,
+      "markdown": "Get access to 5 remote conferences and a number of exclusive perks for <s>500</s> 139 €*!",
+      "html": "Get access to 5 remote conferences and a number of exclusive perks for <s>500</s> 139 €*!",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "citizenship__desc": {
+      "id": "ckdgo2asici610916iy4a094m",
+      "key": "citizenship__desc",
+      "renderStyle": "Standard_Markdown",
+      "markdown": "##### Save more than <b class=\"highlighted\">360 €</b> on regular ticket prices (4x cheaper than buying separate); and in addition to included events, you will also get:\n\n- Discounts to hands-on workshops\n- Discounts to hands-on workshops\n- Early access to initial community ticket sales of in-person events (Super Early Bird)\n- Exclusive swag sent internationally:\n    - GitNation face mask (first 100 buyers)\n    - Conferences and tech sticker pack\n- Full-access ticket remote event passes include:\n    - Access to HD live stream, instant recordings and 3h workshops\n    - Advice lounge, chat with speakers and QnA sessions\n    - After-parties with speakers and other attendees\n    - And more!\n",
+      "html": "<h5>Save more than <b class=\"highlighted\">360 €</b> on regular ticket prices (4x cheaper than buying separate); and in addition to included events, you will also get:</h5>\n<ul>\n<li>Discounts to hands-on workshops</li>\n<li>Discounts to hands-on workshops</li>\n<li>Early access to initial community ticket sales of in-person events (Super Early Bird)</li>\n<li>Exclusive swag sent internationally:<ul>\n<li>GitNation face mask (first 100 buyers)</li>\n<li>Conferences and tech sticker pack</li>\n</ul></li>\n<li>Full-access ticket remote event passes include:<ul>\n<li>Access to HD live stream, instant recordings and 3h workshops</li>\n<li>Advice lounge, chat with speakers and QnA sessions</li>\n<li>After-parties with speakers and other attendees</li>\n<li>And more!</li>\n</ul></li>\n</ul>\n",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "citizenship__tip": {
+      "id": "ckdgoi8uucij70916atkv9oal",
+      "key": "citizenship__tip",
+      "renderStyle": null,
+      "markdown": "* Early Bird price. All prices indicated on the page are exclusive of VAT tax, the tax percentage varies from country to country and for individual/business clients. Final price will be shown at checkout. Team multipass prices available on orders of 7+ items.<br>\n** Regular (without the pass) prices may change in future, but features of the pass and promised pass holder benefits are not subject to deductions of value. Expect only more features to be added!<br>\n*** Events pending announcement may have alternative final dates.",
+      "html": "* Early Bird price. All prices indicated on the page are exclusive of VAT tax, the tax percentage varies from country to country and for individual/business clients. Final price will be shown at checkout. Team multipass prices available on orders of 7+ items.<br>\n** Regular (without the pass) prices may change in future, but features of the pass and promised pass holder benefits are not subject to deductions of value. Expect only more features to be added!<br>\n*** Events pending announcement may have alternative final dates.",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "citizenship__btn": {
+      "id": "ckdgol3dxcimr0916qzd51j0e",
+      "key": "citizenship__btn",
+      "renderStyle": null,
+      "markdown": "<a href=\"https://ti.to/gitnation/conference-multipass\" class=\"btn\">Get your Multipass</a>",
+      "html": "<a href=\"https://ti.to/gitnation/conference-multipass\" class=\"btn\">Get your Multipass</a>",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    },
+    "citizenship__sepTitle": {
+      "id": "ckdgoouenciqc0916voiftvd1",
+      "key": "citizenship__sepTitle",
+      "renderStyle": "Standard_Markdown",
+      "markdown": "##### It gives free access to all our remote conferences<br> and 25% discount to any offline events.",
+      "html": "<h5>It gives free access to all our remote conferences<br> and 25% discount to any offline events.</h5>\n",
+      "contentType": "c04bfcdd2eed47b880588f5506ed4f5a"
+    }
+  },
+  "pages": {
+    "main": {
+      "id": "ckcukq8yn6oe40b971w4pjq15",
+      "titleSeo": "GitNation Foundation - Giving Open Source a human face",
+      "description": null,
+      "seoDescription": null,
+      "key": "main",
+      "titlePage": null,
+      "pageSlogan": "Giving<br>  Open Source<br>  A Human Face.",
+      "pageStatistics": null,
+      "locationTitle": null,
+      "themeColor": null,
+      "keywords": "",
+      "pageNavigation": {
+        "headerNav": [
+          {
+            "text": "About",
+            "href": "#about",
+            "scroll": true
+          },
+          {
+            "text": "What we do",
+            "href": "#focus",
+            "scroll": true
+          },
+          {
+            "text": "Our events",
+            "href": "#events",
+            "scroll": true
+          },
+          {
+            "text": "For citizens",
+            "href": "#visas",
+            "scroll": true
+          },
+          {
+            "text": "Conference multipass",
+            "href": "/conference-multipass"
+          }
+        ]
+      },
+      "pageSections": {
+        "hero": {
+          "hullHeight": true,
+          "smiles:": false
+        },
+        "eventTabs": [
+          {
+            "title": "Conferences",
+            "active": true
+          },
+          {
+            "title": "Community meetups"
+          },
+          {
+            "title": "Broadcasted Events"
+          }
+        ],
+        "events": [
+          {
+            "link": "https://reactsummit.com/",
+            "logoHandle": "YmQyFNWsQiutTiZsD7QN",
+            "title": "React Summit",
+            "date": "Oct 15-16",
+            "lines": [
+              {
+                "text": "<p>The world biggest and most anticipated React conference, heading to virtual space in 2020 to keep international React fans connected with top speakers and core contributors from React and React Native teams.</p><p>Watch-only ticket for both Base Camp and Summit tracks is included with the pass.</p>",
+                "regularPrice": "100€",
+                "multipassPrice": "free"
+              },
+              {
+                "text": "<p>Full-access ticket upgrade available at 30% discount.</p>",
+                "regularPrice": "250€",
+                "multipassPrice": "120€"
+              }
+            ]
+          },
+          {
+            "link": "https://mlconf.eu/",
+            "logoHandle": "h2dwpFiLQFCmjGt8nNBH",
+            "title": "MLConf.eu",
+            "date": "Nov 5-6",
+            "lines": [
+              {
+                "text": "<p>Full-access ticket included with the pass.</p>",
+                "regularPrice": "100 €",
+                "multipassPrice": "free"
+              }
+            ]
+          },
+          {
+            "link": "",
+            "logoHandle": "PWYUcE0oQRm0BZSmn2Qi",
+            "title": "GraphQL Global Summit",
+            "date": "Dec 7-8",
+            "lines": [
+              {
+                "text": "<p>Get ready for the future of data API's and meet those who're shaping the modern GraphQL toolsets and battle-test it at scale. If you're serious about adopting GraphQL to future-proof your applications - it's a must attend event in 2020!</p><p>Full-access ticket included with the pass.</p>",
+                "regularPrice": "100€",
+                "multipassPrice": "free"
+              }
+            ]
+          },
+          {
+            "link": "",
+            "logoHandle": "FID6Y5MpQTyxzExR1tmD",
+            "title": "The LeadQA Conference",
+            "date": "Jan 28-29, 2021***",
+            "lines": [
+              {
+                "text": "<p>Conference on modern Quality Assurance`s leadership, processes and management. Get the skill set to boost your career and help others to succeed.</p><p>Full-access ticket included with the pass.</p>",
+                "regularPrice": "100€",
+                "multipassPrice": "free"
+              }
+            ]
+          },
+          {
+            "link": "",
+            "logoHandle": "bxfbFNWVQPKaPpn9rLe6",
+            "title": "Global Node Summit",
+            "date": "Feb 18-19, 2021***",
+            "lines": [
+              {
+                "text": "<p>Node.js have been growing insanely fast over the last 5 years, and since then became THE full-stack language that's being adopted with any greenfield projects and recent tech rewrite. If you're a front-end or back-end (or both!) engineer - you will learn a ton on how to be more productive, secure and deploy more performant applications to your customers.</p><p>Full-access ticket included with the pass.</p>",
+                "regularPrice": "100€",
+                "multipassPrice": "free"
+              }
+            ]
+          },
+          {
+            "link": "",
+            "logoHandle": "",
+            "title": "Workshops",
+            "date": "",
+            "lines": [
+              {
+                "text": "<p>Each conference we host is accompanied by a number of hands-on workshops, usually 2 days by 4 hours, led by top industry trainer, authors of most used OSS libraries and professional speakers.</p><p>With Conference Multipass you've entitled to unlimited 20% discount across all events. Absolute amount of the discount varies on the workshop price, example based on JSNation Live workshop prices.</p>",
+                "regularPrice": "250€",
+                "multipassPrice": "200€"
+              },
+              {
+                "text": "<h3 class='pass-list__title'>Super Early Birds access for in-person events</h3><p>With each conference announcement, we always prepare a hidden tickets category for our core community and pass members. Access early access to exclusive and limited offers of the coming '20/21 events including React Summit 2021.</p><p>Early Bird discount varies, see example of 2020 React Summit prices.</p>",
+                "regularPrice": "420€",
+                "multipassPrice": "240€"
+              }
+            ]
+          },
+          {
+            "link": "",
+            "logoHandle": "",
+            "title": "",
+            "date": "",
+            "lines": [
+              {
+                "text": "<h3 class='pass-list__title'>Total price</h3><p>Plus discounts on workshops and upgrades.</p>",
+                "regularPrice": "500€",
+                "multipassPrice": "139€"
+              }
+            ]
+          }
+        ]
+      },
+      "contentType": "371641c28b044b00bf532b2dd6e1516d"
+    },
+    "multipass": {
+      "id": "ckd3mia0fqfae0b97fs57zuzd",
+      "titleSeo": "GitNation - Multipass",
+      "description": null,
+      "seoDescription": null,
+      "key": "multipass",
+      "titlePage": null,
+      "pageSlogan": "CONFERENCE<br> MULTIPASS",
+      "pageStatistics": null,
+      "locationTitle": null,
+      "themeColor": null,
+      "keywords": "",
+      "pageNavigation": {
+        "headerNav": [
+          {
+            "text": "Home",
+            "href": "/"
+          },
+          {
+            "text": "Conference multipass",
+            "href": "/conference-multipass"
+          }
+        ]
+      },
+      "pageSections": {
+        "hero": {
+          "hullHeight": false,
+          "smiles:": false
+        }
+      },
+      "contentType": "371641c28b044b00bf532b2dd6e1516d"
+    }
+  },
+  "customContent": {
+    "videoRooms": [],
+    "scheduleExtends": [],
+    "tracks": [],
+    "eventInfo": {}
+  },
+  "conference": {
+    "id": "ckcuk0plz6miq0b976oom4yqg",
+    "status": "PUBLISHED",
+    "city": "Everywhere",
+    "url": "https://gitnation.org/",
+    "title": "GitNation",
+    "slackUrl": null,
+    "twitterUrl": null,
+    "facebookUrl": null,
+    "mediumUrl": null,
+    "youtubeUrl": null,
+    "codeOfConductIntro": null,
+    "codeOfConductMain": null,
+    "contentType": "2d89f139f3d042ab98d212062527eb82"
+  },
+  "speakers": {
+    "main": [],
+    "advisers": [],
+    "performanceTeam": [],
+    "workshops": [],
+    "committee": []
+  },
+  "eveningSpeakers": [],
+  "speakersBtn": false,
+  "sponsors": [
+    {
+      "title": "Partners",
+      "mod": "logos_xs sponsors-block_xs",
+      "list": [
+        {
+          "id": "ck0zk3adkpuu60b49tpdsxjlg",
+          "status": "PUBLISHED",
+          "order": null,
+          "sponsor": {
+            "id": "ck0zk3adkpuu60b49tpdsxjlg",
+            "status": "PUBLISHED",
+            "title": "Focus Reactive",
+            "site": "https://focusreactive.com",
+            "avatar": {
+              "url": "https://media.graphcms.com/4nC2yx5Tem996iOkkVFg"
+            }
+          },
+          "idAlt": "ckd09ksvuuiu009033wp9r96n",
+          "contentType": "f188bcf25c8e419d9f8d10b0926dd825",
+          "contentTypeAlt": "c52cf3fb6f1c41588ea7fc77a092f419",
+          "category": "Partner",
+          "alt": "Focus Reactive",
+          "img": "https://media.graphcms.com/4nC2yx5Tem996iOkkVFg",
+          "link": "https://focusreactive.com",
+          "width": null
+        }
+      ],
+      "category": "Partner"
+    }
+  ],
+  "trainers": [],
+  "workshopDays": 0,
+  "workshops": [],
+  "mcs": [],
+  "faqs": [],
+  "extendeds": {
+    "focus": [
+      {
+        "id": "ckcv60cmw7w6i0b97m395q1qv",
+        "key": "focus",
+        "title": "<p>For engineers</p>\n",
+        "subtitle": "<p>We organize rememborable happenings to skill up, inspire and put in touch enthusiastic ones</p>\n",
+        "description": "<p><a href=\"#events\">List of our events</a><br>\n<a href=\"https://gitnation.org/diversity.html\">We support diversity</a></p>\n",
+        "location": null,
+        "slackChannelName": "",
+        "registerLink": null,
+        "locationLink": null,
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcv6ucdvo8su090396op8d2a",
+        "key": "focus",
+        "title": "<p>For OSS projects and authors</p>\n",
+        "subtitle": "<p>We support OSS projects and authors and celebrate OSS success at the annual awards ceremony</p>\n",
+        "description": "<p><a href=\"https://osawards.com\">Nominate project for awards</a><br>\n<a href=\"https://forms.gle/Lhku5ebnd32jWJye9\">Apply for funds</a></p>\n",
+        "location": null,
+        "slackChannelName": null,
+        "registerLink": null,
+        "locationLink": null,
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcv6vtt6o8us0903zczvm5xc",
+        "key": "focus",
+        "title": "<p>For companies</p>\n",
+        "subtitle": "<p>Share our values and want to support us? In exchange we can help your company to get connected with the ngineering crowd. Also, we can help you with organizing a relevant event from A to Z.</p>\n",
+        "description": "<p><a href=\"#events\">List of our events to sponsor</a><br>\n<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSfXYtGcQb-_ttQ6hOF9xyoXZfs4b1Y9-rAonWFi-9sgsCaSYw/viewform?usp=sf_link\">Request a workshop or event organization</a></p>\n",
+        "location": null,
+        "slackChannelName": null,
+        "registerLink": null,
+        "locationLink": null,
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcv6x5flogfv0b09d1nnp194",
+        "key": "focus",
+        "title": "<p>For communities</p>\n",
+        "subtitle": "<p>We came from the community. And we want to give back. As event orgs with a solid experience and as a foundation we can help your community in many ways. Do not hesitate to contact GitNation.</p>\n",
+        "description": "<p><a href=\"#events\">Communitites we run events for</a><br>\n<a href=\"https://docs.google.com/forms/d/e/1FAIpQLScmoPn-SMx_-U-_2Ta8o7RvZyq9JcYwu2tib0NqwadEZT4P8Q/viewform?usp=sf_link\">Assistance request</a></p>\n",
+        "location": null,
+        "slackChannelName": null,
+        "registerLink": null,
+        "locationLink": null,
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      }
+    ],
+    "events": [
+      {
+        "id": "ckcxzcl88e4il0b97s0u38yjf",
+        "key": "events",
+        "title": "<h2>React Summit</h2>\n",
+        "subtitle": "<p>If you ever heard of React then you definitely heard of React Summit.<br>\nThe largest React conference in the world and one of the largest JavaScript events ever.</p>\n",
+        "description": "<p>1500 React fans &#x26; lovers<br>\n2 Tracks (General + React Native)<br>\n3 days (Workshops + Conference)<br>\nPeople from 50 countries</p>\n",
+        "location": "<p><a href=\"https://reactsummit.com/\">reactsummit.com</a><br>\n<a href=\"url\">sponsorship proposal</a><br>\n<a href=\"https://twitter.com/reactsummit\">twitter</a></p>\n",
+        "slackChannelName": "",
+        "registerLink": "https://reactsummit.com/",
+        "locationLink": "https://www.youtube.com/embed/K_JIIF5xYS4",
+        "image": {
+          "url": "https://media.graphcms.com/YmQyFNWsQiutTiZsD7QN"
+        },
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcyq3kh4fy0v0b973p7ktm0t",
+        "key": "events",
+        "title": "<h2>JSNation</h2>\n",
+        "subtitle": "<p>JavaScript is #1 on demand programming language in the world with 25 millions of people behind it. Meet the ones who defines the now and the future of the prospering nation.</p>\n",
+        "description": "<p>1000 Personalities sharing same language<br>\n2 Tracks (General + Node.js)<br>\n3 days (Workshops + Conference)<br>\nPeople from 50 countries</p>\n",
+        "location": "<p><a href=\"https://jsnation.com/\">jsnation.com</a><br>\n<a href=\"sponsorship-proposal\">sponsorship proposal</a><br>\n<a href=\"https://twitter.com/thejsnation\">twitter</a></p>\n",
+        "slackChannelName": null,
+        "registerLink": "https://jsnation.com/",
+        "locationLink": "https://www.youtube.com/embed/gfbWjD4SwmU",
+        "image": {
+          "url": "https://media.graphcms.com/NCW3lqqeS8mVDhBJucOY"
+        },
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcyqxew8se8o0903esjc8483",
+        "key": "events",
+        "title": "<h2>React Day Berlin</h2>\n",
+        "subtitle": "<p>Build code, not walls. Focusing on in-depth talks, hands-on workshops, and finding new opportunities, React Day Berlin conference provides space for everyone to make friends and develop stellar apps together.</p>\n",
+        "description": "<p>800 React fans &#x26; lovers<br>\n2 Tracks (General + React Native)<br>\n3 days (Workshops + Conference)<br>\nPeople from 50 countries</p>\n",
+        "location": "<p><a href=\"https://reactday.berlin/\">reactday.berlin/</a><br>\n<a href=\"sponsorship-proposal\">sponsorship proposal</a><br>\n<a href=\"https://twitter.com/reactdayberlin\">twitter</a></p>\n",
+        "slackChannelName": null,
+        "registerLink": "https://reactday.berlin/",
+        "locationLink": "https://www.youtube.com/embed/GGY_WSFlkNI",
+        "image": {
+          "url": "https://media.graphcms.com/GOdClK9URNyqzPdQECXB"
+        },
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckcyr99hfg2ee0b97sug54sbm",
+        "key": "events",
+        "title": "<h2>React Advanced London</h2>\n",
+        "subtitle": "<p>The React ecosystem and community have grown dramatically in the last few years, as has the complexity of web and JavaScript app development. Don't go the journey alone—connect with a global network of field experts and gain invaluable, behind-the-scenes insights. Engineers of any level are welcome, but be prepared to get hardcore.</p>\n",
+        "description": "<p>800 React fans &#x26; lovers<br>\n2 Tracks (General + React Native)<br>\n3 days (Workshops + Conference)<br>\nPeople from 50 countries</p>\n",
+        "location": "<p><a href=\"https://reactadvanced.com/\">reactadvanced.com</a><br>\n<a href=\"sponsorship-proposal\">sponsorship proposal</a><br>\n<a href=\"https://twitter.com/reactadvanced\">twitter</a></p>\n",
+        "slackChannelName": null,
+        "registerLink": "https://reactadvanced.com/",
+        "locationLink": "https://www.youtube.com/embed/wuVy7rwkCfc",
+        "image": {
+          "url": "https://media.graphcms.com/9NA6yHNQTYmyVObSbJTh"
+        },
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      }
+    ],
+    "visas": [
+      {
+        "id": "ckd06ov5ojm430b973a9y71gk",
+        "key": "visas",
+        "title": null,
+        "subtitle": "<h4><del>500</del> 139€</h4>\n<p>Get full access to all GitNation remote conferences and a number of exclusive perks</p>\n",
+        "description": null,
+        "location": null,
+        "slackChannelName": "Get your multipass",
+        "registerLink": "https://ti.to/gitnation/conference-multipass",
+        "locationLink": "/conferences-multipass",
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      },
+      {
+        "id": "ckd06qvmzujxh0b09dpkdgdq3",
+        "key": "visas",
+        "title": null,
+        "subtitle": "<p>Free access to any GitNation event. Citizenship is granted for significant services to the nation: open-source achievements, or social activism.</p>\n",
+        "description": "\n",
+        "location": "<p>citizenship</p>\n",
+        "slackChannelName": "Apply for citizenship",
+        "registerLink": "alert('Not available at the moment. Try later.')",
+        "locationLink": "alert('Not available at the moment. Try later.')",
+        "image": null,
+        "contentType": "c20fac4698f94d148fcbb27989ef48e4"
+      }
+    ]
+  },
+  "jobs": [],
+  "conferenceSettings": {
+    "tagColors": {
+      "NodeJS": {
+        "tagBG": "#7AB464",
+        "color": "#fff"
+      },
+      "NestJS": {
+        "tagBG": "#ea2845",
+        "color": "#fff"
+      },
+      "WebGL": {
+        "tagBG": "#ff7302",
+        "color": "#ffffff"
+      },
+      "Ecosystem": {
+        "tagBG": "#fff40d",
+        "color": "#ae4f01"
+      },
+      "Language": {
+        "tagBG": "#fff40d",
+        "color": "#ae4f01"
+      },
+      "GraphQL": {
+        "tagBG": "#f200fa",
+        "color": "#400042"
+      },
+      "PWA": {
+        "tagBG": "#d400fa",
+        "color": "#fff"
+      },
+      "VueJS": {
+        "tagBG": "#4EBA87",
+        "color": "#fff"
+      },
+      "Performance": {
+        "tagBG": "#00ed24",
+        "color": "#00410a"
+      },
+      "TypeScript": {
+        "tagBG": "#61DAFB",
+        "color": "#030303"
+      },
+      "Svelte": {
+        "tagBG": "#ff5200",
+        "color": "#fff"
+      },
+      "default": {
+        "tagBG": "black",
+        "color": "white"
+      }
+    },
+    "speakerAvatar": {
+      "dimensions": {
+        "avatarWidth": 500,
+        "avatarHeight": 500
+      }
+    },
+    "conferenceTitle": "GitNation",
+    "eventYear": "Y2020"
+  }
+}
