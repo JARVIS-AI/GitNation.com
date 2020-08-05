@@ -1,0 +1,29 @@
+<section class="section s-citizenship ">
+	<div class="container container--lg">
+		<h4 class="section__title big">{{ pagesPieceOfTexts.citizenship__title | safe }}</h4>
+
+		<div class="section__content s-citizenship__content citizenship-info">
+			<div class="citizenship-info__card">
+				{% include "partials/_visa-card.html" %}
+			</div>
+			
+			<div class="citizenship-info__desc text-based">
+				{{ pagesPieceOfTexts.citizenship__desc | safe }}
+			</div>
+		</div>
+
+		<div class="section__content s-citizenship__content text-based">
+			{{ pagesPieceOfTexts.citizenship__sepTitle | safe }}
+
+			{% include "partials/_pass-list.html" %}
+
+			<div class="btns-wrap to-right">
+				{{ pagesPieceOfTexts.citizenship__btn | safe }}
+			</div>
+
+			<div class="citizenship-info__tip">
+				{{ pagesPieceOfTexts.citizenship__tip | safe }}
+			</div>
+		</div>
+	</div>
+</section>

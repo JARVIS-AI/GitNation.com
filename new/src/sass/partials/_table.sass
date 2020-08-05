@@ -1,0 +1,196 @@
+.table
+	border: 2px solid var(--clr-green)
+	background: var(--clr-black)
+
+	+regular
+	font-size: 22px
+	line-height: 1.6
+	color: var(--clr-green)
+	position: relative
+	+lg
+		padding-left: 10px
+		font-size: 16px
+		margin-left: 0
+	+med
+		padding-left: 0
+		font-size: 18px
+		line-height: 1.5
+	+xs
+		color: var(--clr-green)
+
+	.anchor-item
+		text-decoration: none
+
+		&:hover
+			text-decoration: underline
+
+	&__body
+		position: relative
+		z-index: 2
+		background-color: var(--clr-black)
+
+	&__row
+		display: flex
+		position: relative
+
+		&:not(:last-child)
+			&:after
+				position: absolute
+				content: ''
+				display: block
+				width: 100%
+				height: 2px
+				background-color: var(--clr-grayL)
+				top: 100%
+				left: 0
+				transform: translate(0, -50%)
+				display: none
+				+xs
+					// background-color: var(--clr-grayL)
+
+	&__row-content
+		display: flex
+		width: 100%
+		+med
+			display: block
+			border-left: 2px solid var(--clr-grayL)
+			width: 100%
+		+xs
+			border-color: var(--clr-grayL)
+
+	&__col
+		padding: 22px 26px
+		+lg
+			padding: 10px 14px
+
+		&_sm
+			width: 106px
+			//8.5%
+			flex-shrink: 0
+			+lg
+				width: 79px
+			+med
+				width: 77px
+
+		&_md
+			width: 230px
+			//29.6%
+			flex-shrink: 0
+			padding-right: 0
+			+lg
+				width: 200px
+			+med
+				width: 100%
+
+		&_lg
+			width: 100%
+			+med
+				width: 100%
+				border-top: 2px solid #f8f8f8
+
+		&:not(.table__col_lg)
+			// border-right: 2px solid var(--clr-grayL)
+			+med
+				border-right: none
+
+		&_empty
+			position: relative
+			overflow: hidden
+			+med
+				display: none
+
+			&:after
+				position: absolute
+				content: ''
+				display: block
+				width: 150%
+				height: 1px
+				background-color: var(--clr-grayL)
+				top: 50%
+				left: 50%
+				transform: translate(-50%, -50%) rotate(-5.6deg)
+				+lg
+					transform: translate(-50%, -50%) rotate(-4.9deg)
+
+	&__title
+		&:not(:last-child)
+			margin-bottom: 23px
+		a
+			color: var(--clr-white)
+			text-decoration: none
+
+			&:hover
+				text-decoration: underline
+
+	&__descr
+		font-size: 16px
+		line-height: 1.4
+		color: var(--clr-white)
+		p
+			&:not(:last-child)
+				margin-bottom: 10px
+		a
+			color: inherit
+			+hover
+				text-decoration: none
+		img
+			max-width: 100%
+		+lg
+			font-size: 14px
+			line-height: 1.6
+		+med
+			font-size: 12px
+			line-height: 1.5
+		+sm
+			line-height: 1.75
+	&__section
+		&:not(:last-child)
+			border-bottom: 4px solid var(--clr-green)
+		.table__row
+			&:first-child
+				.table__col_sm
+					+sm
+						font-size: 24px
+			&:not(:first-child)
+				.table__col_sm
+					font-size: 18px
+					+regular
+					+med
+						font-size: 16px
+	&_sm
+		.table
+			&__row
+				&:after
+					background-color: transparent
+				+sm
+					display: block
+			&__row-content
+				+sm
+					border: none
+			&__col
+				&_sm
+					width: 340px
+					+sm
+						width: 100%
+				&_lg
+					+med
+						border: none
+
+
+.table-wrapper
+	color: var(--clr-green)
+	padding: 160px 0 40px
+	background: var(--clr-grayL)
+	+med
+		padding: 83px 0 87px
+	&__title
+		&:not(:last-child)
+			margin-bottom: 64px
+			+med
+				margin-bottom: 32px
+	&__descr
+		max-width: 850px
+		&:not(:last-child)
+			margin-bottom: 82px
+			+med
+				margin-bottom: 24px

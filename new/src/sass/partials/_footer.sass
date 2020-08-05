@@ -1,0 +1,25 @@
+.footer
+	color: var(--clr-text)
+	background: #d3d3cc
+	border-top: 2px solid #c2c2bc
+
+	.container
+		padding-top: 32px
+		padding-bottom: 32px
+
+	&__info
+		font-size: 14px
+		line-height: 1.86
+		display: flex
+
+		+xs
+			flex-direction: column
+
+		p
+			margin: 0
+
+			&:not(:first-child)
+				margin-left: 100px
+
+				+xs
+					margin: 14px 0 0

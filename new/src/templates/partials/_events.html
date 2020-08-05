@@ -1,0 +1,47 @@
+<section class="section s-events" id="events">
+	<div class="container">
+		<h4 class="section__title">{{ pagesPieceOfTexts.events__title | safe }}</h4>
+
+		<div class="section__content s-events__content">
+
+			<div class="events-tabs js-tabs-container">
+				<div class="events-tabs__btns">
+					<div class="events-tabs__btn js-tab-link is-active" data-tab="1">Conferences</div>
+					<div class="events-tabs__btn js-tab-link" data-tab="2">Community meetups</div>
+				</div>
+
+				<div class="events-tabs__tabs">
+					<div class="events-tabs__tab js-tab is-active" data-tab="1">
+						<ul class="events">
+							{% for event in extendeds.events %}
+							<li class="events__item">
+								<div class="events__img-wrap">
+									<a href="{{ event.registerLink | safe }}">
+										<img src="{{ event.image.url }}">
+									</a>
+								</div>
+								<div class="events__content">
+									<div class="events__title">{{ event.title | safe }}</div>
+									<div class="events__desc">{{ event.subtitle | safe }}</div>
+
+									<div class="events__info">
+										<div class="events__stats">{{ event.description | safe }}</div>
+										<div class="events__links">{{ event.location | safe }}</div>
+										<div class="events__video">
+											<iframe width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										</div>
+									</div>
+								</div>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+
+					<div class="events-tabs__tab js-tab" data-tab="2">
+						Community meetups
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,137 @@
+/*----- Header -----*/
+
+.header
+	position: absolute
+	left: 0
+	top: 54px
+	right: 0
+	transition: all .3s ease
+	z-index: 10
+	display: none
+
+	+lg
+		position: fixed
+		top: 0
+		height: 52px
+		background: #1c1c1c
+
+	.container
+		position: relative
+		max-width: 1210px
+		display: flex
+		justify-content: space-between
+		padding: 20px 68px
+		flex: 1
+		
+		+xl
+			max-width: 1010px
+
+		+lg
+			max-width: 768px
+			padding: 9px 58px 9px 5px
+
+		+med
+			max-width: 896px
+
+	&__logo
+		position: relative
+		width: 150px
+		margin: 0 20px 0 0
+
+	&__main-nav
+		display: flex
+		flex: 0 0 auto
+		margin: 0 0 0 auto
+
+	&__tickets
+		margin: -7px 0 -7px 10px
+
+
+	&.sticky
+		background: #f00
+
+		.logo-mini
+			opacity: 1
+			transform: rotate(0) scale(1)
+
+		.socials
+			&__link
+				fill: #f00
+				&:hover
+					.socials__img
+						fill: var(-(-clr-white))
+
+	&.is-active
+		+lg
+			visibility: visible
+			opacity: 1
+			height: 100vh
+
+			.container
+				height: 100%
+
+			&:after
+				content: ''
+				position: absolute
+				left: 0
+				top: 52px
+				right: 0
+				height: 1px
+				background: var(--clr-green)
+
+			.main-nav
+				display: flex
+				flex-direction: column
+				flex: 0 0 auto
+
+			.header__main-nav
+				position: absolute
+				display: flex
+				flex-direction: column
+				left: 0
+				right: 0
+				top: 100px
+				bottom: 0
+				width: 220px
+				margin: 0 auto
+
+			.header__tickets
+				margin: 0
+
+			.socials
+				display: flex
+				position: absolute
+				left: 0
+				right: 0
+				bottom: 20px
+				justify-content: center
+
+	.socials
+		display: none
+
+
+
+
+.logo
+	position: absolute
+	left: -20px
+	top: -50px
+	height: 101px
+	width: 149px
+	z-index: 1
+
+	&__link
+		display: block
+		height: 100%
+		width: 100%
+		background: url(../img/logo.svg) no-repeat
+		background-size: cover
+		transition: none
+
+	+lg
+		left: 0
+		top: -3px
+		height: 64px
+		width: 96px
+
+

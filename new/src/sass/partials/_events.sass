@@ -1,0 +1,150 @@
+.events
+	padding: 0
+	margin: 16px 0 0
+	list-style: none
+
+	&__item
+		display: flex
+		padding: 56px 0 74px
+
+		&:not(:first-child)
+			border-top: 2px solid #f0f0f0
+
+		+lg
+
+		+med
+			padding: 26px 0 44px
+			flex-direction: column
+	
+	&__img-wrap
+		flex: 0 0 292px
+		padding: 20px 20px 0
+		margin: 0 45px 0 0
+
+		img
+			width: 100%
+			height: auto
+
+		+lg
+			flex: 0 0 192px
+			margin: 0 25px 0 0
+			padding: 10px 10px 0
+
+		+med
+			flex: 0 0 auto
+			height: auto
+			width: 200px
+			margin: 0 auto 10px
+
+	
+	&__content
+		flex: 1 1 auto
+
+	
+	&__title
+		h2
+			margin: 0
+			padding: 0
+			font-size: 42px
+			line-height: 1.12
+
+			+lg
+				font-size: 30px
+
+		+med
+			display: none
+
+			h2
+				text-align: center
+
+	&__desc
+		line-height: 1.92
+
+		p
+			margin: 14px 0 0
+
+	&__info
+		display: flex
+		flex-wrap: wrap
+		line-height: 1.82
+		margin: 20px 0 0
+
+		+med
+			flex-wrap: wrap
+
+		+xs
+			flex-direction: column
+			margin: 0 0 0
+
+		p
+			margin: 14px 0 0
+
+	&__stats
+		flex: 3 1
+		margin: 0 20px 0 0
+
+	&__links
+		flex: 2 1
+		margin: 0 20px 0 0
+
+	&__video
+		flex: 2 1
+		margin: 0
+
+		+med
+			flex: 2 1 100%
+
+		iframe
+			margin: 14px 0 0
+			width: 142px
+			height: 80px
+
+			+med
+				display: block
+				width: 264px
+				height: 160px
+				margin: 14px auto 0
+
+
+.events-tabs
+	
+	&__btns
+		display: flex
+		font-size: 20px
+
+	&__btn
+		position: relative
+		height: 42px
+		display: flex
+		align-items: center
+		cursor: pointer
+		line-height: 1.24
+
+		&:not(:first-child)
+			margin: 0 0 0 50px
+
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			right: 0
+			bottom: 0
+			height: 4px
+			background: #d3d3cc
+			transition: all ease 0.1s
+			opacity: 0
+
+		&.is-active
+			&:after
+				opacity: 1
+
+
+		
+	&__tabs
+		
+	&__tab
+		display: none
+
+		&.is-active
+			display: block
+		

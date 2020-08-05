@@ -1,0 +1,71 @@
+
+.h-menu
+	display: flex
+	flex-wrap: wrap
+	position: relative
+	top: 0
+	padding: 0
+	margin: 0
+	list-style: none
+	font-size: 16px
+
+	+med
+		display: none
+		flex-direction: column
+		max-width: 460px
+		margin: 0 auto
+
+	&__item
+		display: inline-block
+		margin: 0 0 0 4px
+
+		+med
+			margin: 0
+
+			&:not(:first-child)
+				margin: 20px 0 0 0
+
+	&__link
+		position: relative
+		display: block
+		text-decoration: none
+		padding: 13px 20px 12px
+		z-index: 1
+		border-radius: 5px
+		transition: all ease 0.2s
+		color: var(--clr-white)
+
+		+med
+			+medium
+			color: var(--clr-theme)
+			// background: var(--clr-theme)
+			text-align: center
+			padding: 15px 20px 14px
+
+			&:hover
+				box-shadow: 0 5px 15px -5px rgba(186, 50, 0, 0.5)
+
+			&:after
+				display: none
+
+		&:after
+			content: ''
+			position: absolute
+			top: 0
+			bottom: 0
+			left: 0
+			right: 0
+			opacity: 0
+			background: #fff
+			transition: all ease .2s
+			border-radius: 3px
+			z-index: -1
+			transition: all ease 0.2s
+			box-shadow: 0 0 0 -10px rgba(67,64,75, 0.5)
+
+		&:hover
+			color: var(--clr-theme)
+			box-shadow: 0 20px 20px -10px rgba(186,50,0, 0.5)
+
+			&:after
+				opacity: 1

@@ -1,0 +1,124 @@
+.s-focus
+
+	.section__content
+		margin-top: 42px
+
+.focus
+	padding: 0
+	margin: 42px 0 0
+	display: flex
+	flex-direction: column
+
+	+med
+		flex-wrap: wrap
+		flex-direction: row
+		margin: 0 -20px
+
+	&__item
+		display: flex
+		padding: 42px 0
+
+		&:not(:first-child)
+			border-top: 2px solid #f0f0f0
+
+		+med
+			flex-direction: column
+			flex: 1 1 50%
+			text-align: center
+			border-top: none
+
+			&:not(:first-child)
+				border-top: none
+
+			&:nth-child(1n + 3)
+				border-top: 2px solid #f0f0f0
+
+			// flex-direction: column
+
+		+sm
+			flex: 1 1 100%
+			padding: 30px 0
+
+			&:nth-child(1n + 3)
+				border-top: none
+
+			&:nth-child(1n + 2)
+				border-top: 2px solid #f0f0f0
+
+
+	&__img-wrap
+		display: flex
+		flex: 0 0 150px
+		width: 150px
+		margin: auto 0
+		height: 120px
+		justify-content: center
+		align-items: center
+
+		+med
+			width: 100%
+			height: 100px
+			flex: 0 0 100px
+			margin: 0 0 14px
+			
+
+	&__img
+		width: 100px
+		height: auto
+		fill: #d3d3cc
+
+		&.icon-focus_1
+			width: 100px
+
+		&.icon-focus_2
+			width: 79px
+
+		&.icon-focus_3
+			width: 83px
+
+		&.icon-focus_4
+			width: 80px
+
+	&__text
+		margin: 0 20px
+		flex: 1 1 auto
+
+	&__links
+		flex: 0 0 374px
+		font-size: 14px
+		line-height: 1.86
+		margin: 35px 0 0
+
+		p
+			margin: 15px 0 0
+
+		a
+
+		+xl
+			flex: 0 0 320px
+
+		+lg
+			flex: 0 0 260px
+
+		+med
+			flex: 1 1 auto
+			margin: 0 20px 0
+
+
+
+	&__title
+		+bold
+		font-size: 30px
+		line-height: 1.18
+		margin: 0
+		padding: 0
+
+		p
+			margin: 0
+
+	&__desc
+		font-size: 14px
+		line-height: 1.86
+
+		p
+			margin: 15px 0 0

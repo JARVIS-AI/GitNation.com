@@ -1,0 +1,16 @@
+{% macro icon(i) %}
+<svg class="icon icon-{{i}}"><use xlink:href="img/sprite-inline.svg#{{i}}"></use></svg>
+{% endmacro %}
+
+{% macro cmsData(entry) %}
+  data-id="{{ entry.id }}"
+  data-content-type="{{ entry.contentType }}"
+  data-id-alt="{{ entry.idAlt }}"
+  data-content-type-alt="{{ entry.contentTypeAlt }}"
+{% endmacro %}
+
+{% macro text(pieceOfTexts, key) %}
+  <span class="graphcms-container" {{ cmsData(pieceOfTexts[key]) }}>
+  {{ pieceOfTexts[key].html | safe }}
+  </span>
+{% endmacro %}
