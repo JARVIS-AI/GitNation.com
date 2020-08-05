@@ -1,19 +1,21 @@
 /*----- Hero -----*/
 
 .hero
+	display: flex
 	position: relative
 	color: var(--clr-white)
 	background: url(../img/h-bg.png) center bottom, #fe5619
 	background-size: cover
 
 	&.full-height
-		height: 100vh
+		min-height: 100vh
 
 	a
 		text-decoration: none
 
 	.container
-		height: 100%
+		width: 100%
+		min-height: 100%
 		display: flex
 
 		+med
