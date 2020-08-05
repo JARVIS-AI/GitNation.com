@@ -1,0 +1,10 @@
+
+<ul class="h-menu">
+	{% for item in pages[pageKey].pageNavigation.headerNav %}
+	<li class="h-menu__item">
+		<a href="{{item.href}}" class="h-menu__link {% if item.scroll %}js-menu-link{% endif %}">
+			<span>{{item.text}}</span>
+		</a>
+	</li>
+	{% endfor %}
+</ul>

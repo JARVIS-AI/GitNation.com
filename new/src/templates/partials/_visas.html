@@ -1,0 +1,28 @@
+<section class="section s-visas" id="visas">
+	<div class="container">
+		<h4 class="section__title">{{ pagesPieceOfTexts.visas__title | safe }}</h4>
+
+		<div class="section__content s-visas__content">
+			<div class="visas">
+				{% for item in extendeds.visas %}
+				<div class="visas__item">
+					<div class="visas__body">
+						{% include "partials/_visa-card.html" %}
+
+						<div class="visas__desc">
+							{{ item.subtitle | safe }}
+						</div>
+
+						<div class="visas__btns btns-wrap">
+							<a href="{{ item.registerLink }}" class="btn visas__btn">{{ item.slackChannelName }}</a>
+							<a href="{{ item.locationLink }}" class="btn btn--transparent visas__btn">Learn more</a>
+						</div>
+					</div>
+
+					{% include "partials/_form-visa.html" %}
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</section>

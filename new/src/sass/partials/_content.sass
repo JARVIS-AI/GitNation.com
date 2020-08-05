@@ -1,0 +1,39 @@
+/*----- Content -----*/
+
+.content 
+	flex: 1
+
+
+
+.list-dashed
+	padding: 0
+	list-style: none
+
+	li
+		position: relative
+		padding: 0 0 0 10px
+
+		&:not(:first-child)
+			margin: 10px 0 0 0
+
+		&:before
+			content: ''
+			position: absolute
+			left: 0
+			top: 9px
+			width: 4px
+			height: 1px
+			background: var(--clr-text)
+
+	.list-dashed
+		margin: 5px 0 0 0
+
+		li
+			padding: 0 0 0 12px
+		
+			&:not(:first-child)
+				margin: 5px 0 0 0
+
+			&:before
+				left: 2px
+				background: var(--clr-gray)

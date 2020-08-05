@@ -1,0 +1,24 @@
+<section class="section s-sponsors" id="sponsors">
+	<div class="container container--lg-bottom">
+		<h4 class="section__title">{{ pagesPieceOfTexts.sponsors__title | safe }}</h4>
+
+		<div class="section__content s-sponsors__content">
+		{% for item in sponsors %}
+			<div class="sponsors-block {{item.mod}}">
+				<!-- <div class="sponsors-block__title">{{item.title}}</div> -->
+				<ul class="sponsors-block__list">
+					{% for sponsor in item.list %}
+						<li class="sponsors-block__item graphcms-container"
+							{{ mixins.cmsData(sponsor) }}
+						>
+							<a href="{{sponsor.link}}" target="_blank">
+								<img src="{{sponsor.img}}" alt="{{sponsor.alt}}" width="{{sponsor.width}}">
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		{% endfor %}
+		</div>
+	</div>
+</section>

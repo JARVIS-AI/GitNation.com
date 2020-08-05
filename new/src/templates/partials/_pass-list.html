@@ -1,0 +1,29 @@
+<div class="pass-list">
+	{% for event in pages.main.pageSections.events %}
+	<div class="pass-list__item">
+		{% if event.logoHandle %}
+			<div class="pass-list__img-wrap">
+				{% if event.link %}
+				<a href="{{ event.link }}">
+					<img class="pass-list__img" src="https://media.graphcms.com/{{ event.logoHandle }}">
+				</a>
+				{% else %}
+					<img class="pass-list__img" src="https://media.graphcms.com/{{ event.logoHandle }}">
+				{% endif %}
+			</div>
+		{% endif %}
+		<div class="pass-list__content">
+			<h3 class="pass-list__title">{{ event.title }} {% if event.date %}<span>({{ event.date }})</span>{% endif %}</h3>
+			{% for line in event.lines %}
+			<div class="pass-list__line">
+				<div class="pass-list__text">{{ line.text | safe }}</div>
+				<div class="pass-list__prices">
+					<div class="pass-list__price-regular"><span>{{ line.regularPrice }}</span>**</div>
+					<div class="pass-list__price-multipass">{{ line.multipassPrice }}</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+	{% endfor %}
+</div>

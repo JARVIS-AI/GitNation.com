@@ -1,0 +1,70 @@
+{% import "partials/_mixins.html" as mixins %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<html lang="en">
+	<title>{{ title }}</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="shortcut icon" href="img/favicon.png"/>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="twitter:card" content=""/>
+	<meta name="twitter:site" content=""/>
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:url"                content="http://www.gitnation.org" />
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Giving Open Source a human face." />
+	<meta property="og:description"        content="We organize events for a bigger cause — we want modern Tech Community to become a better place for developers and enthusiasts alike by encouraging professional growth opportunities, skills evolution and nurturing passion for the craft." />
+	<meta property="og:image"              content="http://gitnation.org/img/og-gitnation.png" />
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="overlay js-overlay"></div>
+
+	{% block content %}
+	{% endblock %}
+
+</div>
+
+<!-- <script type="text/javascript">
+	var _gauges = _gauges || [];
+	(function() {
+		var t   = document.createElement('script');
+		t.type  = 'text/javascript';
+		t.async = true;
+		t.id    = 'gauges-tracker';
+		t.setAttribute('data-site-id', '5ca4d31d67e90a079f05add6');
+		t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+		t.src = 'https://d2fuc4clr7gvcn.cloudfront.net/track.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(t, s);
+	})();
+</script> -->
+
+<!-- Facebook Pixel Code -->
+<!-- <script>
+	!function(f,b,e,v,n,t,s)
+	{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window, document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+	fbq('init', '1374905195888955');
+	fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1374905195888955&ev=PageView&noscript=1"/></noscript> -->
+<!-- End Facebook Pixel Code -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

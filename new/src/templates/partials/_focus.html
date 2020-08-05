@@ -1,0 +1,24 @@
+<section class="section s-focus" id="focus">
+	<div class="container container--lg-top">
+		<h4 class="section__title">{{ pagesPieceOfTexts.focus__title | safe }}</h4>
+
+		<div class="section__content s-focus__content">
+			<ul class="focus">
+				{% for focus in extendeds.focus %}
+				<li class="focus__item">
+					<div class="focus__img-wrap">
+						<svg class="focus__img icon icon-focus_{{ loop.index }}"><use xlink:href="img/sprite-inline.svg#focus_{{loop.index}}"></use></svg>
+					</div>
+
+					<div class="focus__text">
+						<div class="focus__title">{{ focus.title | safe }}</div>
+						<div class="focus__desc">{{ focus.subtitle | safe }}</div>
+					</div>
+
+					<div class="focus__links">{{ focus.description | safe }}</div>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>

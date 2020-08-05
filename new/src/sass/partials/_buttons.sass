@@ -1,0 +1,81 @@
+/*----- Buttons -----*/
+
+.btns-wrap
+	display: flex
+	flex-wrap: wrap
+	margin: 35px -5px 0 -5px
+
+	&.to-right
+		justify-content: flex-end
+
+	.btn
+		min-width: 156px
+		margin: 15px 5px 0 5px
+		fill: var(--clr-black)
+
+
+.btn
+	display: inline-flex
+	+regular
+	font-size: 14px
+	line-height: 1.36
+	min-height: 58px
+	padding: 5px 20px
+	border-radius: 5px
+	justify-content: center
+	background: var(--clr-theme)
+	color: var(--clr-white)
+	align-items: center
+	text-align: center
+	text-decoration: none
+	overflow: hidden
+	outline: none
+	border: 2px solid transparent
+	cursor: pointer
+	flex-shrink: 0
+	transition: all ease 0.1s
+
+	&:hover
+		background: var(--clr-themeH)
+		box-shadow: 0 20px 30px -15px rgba(254, 86, 25, 0.7)
+
+	&--sm
+		font-size: 12px
+		min-height: 38px
+
+
+	&--white
+		background: var(--clr-white)
+		color: var(--clr-black)
+		box-shadow: 0 0 0 var(--clr-black)
+
+	&--transparent
+		color: var(--clr-text)
+		background: transparent
+		border-color: transparent
+
+		&:hover
+			border-color: var(--clr-theme)
+			background: transparent
+			color: var(--clr-theme)
+
+	&--bordered
+		color: var(--clr-green)
+		background: transparent
+		border-color: var(--clr-green)
+
+		&:hover
+			background: var(--clr-green)
+			color: var(--clr-black)
+
+	&--gray
+		background: #e8e7e7
+		color: var(--clr-text)
+
+		&:hover
+			background: #d3d3d3
+			color: var(--clr-text)
+			box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3)
+
+			
+			

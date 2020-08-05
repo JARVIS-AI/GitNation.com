@@ -1,0 +1,49 @@
+<form class="form form-visa js-form-visa" id="js-form-visa-{{ loop.index }}">
+	<div class="form__title">Fill the form</div>
+
+	<div class="form__body">
+		<div class="form__line">
+			<label class="form__label">Name</label>
+			<input class="form__input" type="text" name="Name">
+		</div>
+
+		<div class="form__line">
+			<label class="form__label">E-mail</label>
+			<input class="form__input" type="text" name="E-mail">
+		</div>
+
+		<div class="form__line">
+			<label class="form__label">GitHub nickname</label>
+			<input class="form__input" type="text" name="GitHub nickname">
+		</div>
+
+		<div class="form__line">
+			<label class="form__label">City</label>
+			<input class="form__input" type="text" name="City">
+		</div>
+
+		<div class="form__line form__line--spaced">
+			<label class="form__label">How do you know about us?</label>
+			<select class="form__select">
+				<option>Google directed</option>
+				<option>Google directed 1</option>
+				<option>Google directed 2</option>
+				<option>Google directed 3</option>
+			</select>
+		</div>
+
+		<div class="form__line form__line--spaced form-photo">
+			<div class="form-photo__photo">
+				<svg class="icon icon-face">
+					<use xlink:href="img/sprite-inline.svg#face"></use>
+				</svg>
+			</div>
+
+			<button class="form-photo__btn btn btn--gray btn--sm" type="button">Upload photo</button>
+		</div>
+
+		<div class="form__line form__line--spaced">
+			<button class="form__submit btn" type="submit">Apply</button>
+		</div>
+	</div>
+</form>

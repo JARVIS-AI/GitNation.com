@@ -1,0 +1,79 @@
+# Javascript Node CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-javascript/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+          - v1-dependencies-{{ checksum "package.json" }}
+          # fallback to using the latest cache if no exact match is found
+          - v1-dependencies-
+
+      - run:
+          name: install dependencies
+          command: |
+            if [ ! -d "node_modules" ]; then
+            yarn install
+            fi
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: smoke test
+          command: yarn test:smoke
+
+      - run:
+          name: build website
+          command: |
+            if [ $CIRCLE_BRANCH = "master" ]; then
+              CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn build
+            fi
+            if [ $CIRCLE_BRANCH != "master" ]; then
+              CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN_DEV yarn build
+            fi
+
+      - run:
+          name: test
+          command: |
+            if [ $CIRCLE_BRANCH != "master" ]; then
+              yarn test:build
+            fi
+
+      # Uncomment to build last year
+      # - run: cd 2020 && yarn install && yarn build && cd ..
+
+      - run:
+          name: deploy to remote
+          command: |
+            if [ $CIRCLE_BRANCH = "master" ]; then
+              ./node_modules/.bin/gulp deploy --user $FTP_USER --password $FTP_PASSWORD
+            fi
+            if [ $CIRCLE_BRANCH = "develop" ]; then
+              ./node_modules/.bin/gulp deploy --user $FTP_USER_DEV --password $FTP_PASSWORD_DEV
+            fi
+
+      - run:
+          name: Message to Slack
+          command: |
+            if [ $CIRCLE_BRANCH = "master" ]; then
+              curl -X POST -H 'Content-type: application/json' --data '{"blocks":[{"type":"context","elements":[{"type":"image","image_url":"https://nodejs.org/static/images/favicons/favicon.ico","alt_text":"???"},{"type":"mrkdwn","text":"*Node Day UK*"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"https://???"}]},{"type":"section","text":{"type":"mrkdwn","text":"website is deployed to *production* :tada:"}},{"type":"divider"},{"type":"section","text":{"type":"mrkdwn","text":":hammer_and_wrench: *Tools:*"}},{"type":"context","elements":[{"type":"mrkdwn","text":"Staging: https://staging.???.com/"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"Inline mode: https://???.com/?inline"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"Storybook: https://gitnation.github.io/???.com"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"GrapCMS event: https://app.graphcms.com/8be1ceff148c4b749e78b34007f9cc34/master/content/bf61477d3b8a440ba9439fa6a32eb60f/table/ck6zhojnnw1um0b20ywniuk9w"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"Github: https://github.com/GitNation/???.com"}]},{"type":"context","elements":[{"type":"mrkdwn","text":"Build info: '$CIRCLE_BUILD_URL'"}]}]}' $SLACK_CMS_UPDATE
+            fi
+
+      - run:
+          name: deploy Storybook
+          command: |
+            if [ $CIRCLE_BRANCH = "master" ]; then
+              CMS_ENDPOINT=$CMS_ENDPOINT/master CMS_TOKEN=$CMS_TOKEN yarn deploy:storybook
+            fi
