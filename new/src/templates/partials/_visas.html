@@ -13,10 +13,12 @@
 							{{ item.subtitle | safe }}
 						</div>
 
+						{% if item.registerLink or item.locationLink %}
 						<div class="visas__btns btns-wrap">
-							<a href="{{ item.registerLink }}" class="btn visas__btn">{{ item.slackChannelName }}</a>
-							<a href="{{ item.locationLink }}" class="btn btn--transparent visas__btn">Learn more</a>
+							{% if item.registerLink %}<a href="{{ item.registerLink }}" class="btn visas__btn">{{ item.slackChannelName }}</a>{% endif %}
+							{% if item.locationLink %}<a href="{{ item.locationLink }}" class="btn btn--transparent visas__btn">Learn more</a>{% endif %}
 						</div>
+						{% endif %}
 					</div>
 
 					{% include "partials/_form-visa.html" %}
