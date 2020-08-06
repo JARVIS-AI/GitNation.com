@@ -1,5 +1,5 @@
 .pass-list
-	margin: 0
+	margin: 30px 0 0
 	padding: 0
 	list-style: none
 
@@ -9,6 +9,22 @@
 
 		+lg
 			flex-direction: column
+
+			&:first-child
+
+				.pass-list__img-wrap
+					margin: 0 auto 60px
+		+med
+
+			&:first-child
+
+				.pass-list__img-wrap
+					margin: 0 auto 36px
+
+		+sm
+			padding: 40px 0 20px
+
+
 
 		&:not(:first-child)
 			border-top: 2px solid #f0f0f0
@@ -55,7 +71,7 @@
 
 					&__price-multipass
 						&:before
-							content: 'Visas price'
+							content: 'Multipass price'
 
 			.pass-list
 				&__price-regular,
@@ -74,7 +90,7 @@
 
 				&__price-multipass
 					&:before
-						content: 'Visas price'
+						content: 'Multipass price'
 
 
 
