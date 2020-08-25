@@ -16,7 +16,11 @@ title: GitNation
 		{% include "partials/_focus.html" %}
 		{% include "partials/_events.html" %}
 		{% include "partials/_visas.html" %}
-		{% include "partials/_sponsors.html" %}
+
+		{% if pages[pageKey].pageSections.sponsors %}
+			{% include "partials/_sponsors.html" %}
+		{% endif %}
+
 		{% include "partials/_mission.html" %}
 
 	</main><!-- .content -->
