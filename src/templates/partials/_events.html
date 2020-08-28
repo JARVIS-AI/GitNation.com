@@ -29,11 +29,13 @@
 										<div class="events__stats">{{ event.description | safe }}</div>
 										<div class="events__links">{{ event.location | safe }}</div>
 										<div class="events__video">
+											{% if event.locationLink %}
 											<div class="events__video-wrap js-video-wrap">
 												<div>
 													<iframe class="js-video" width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
+											{% endif %}
 										</div>
 									</div>
 								</div>
@@ -59,11 +61,13 @@
 										<div class="events__stats">{{ event.description | safe }}</div>
 										<div class="events__links">{{ event.location | safe }}</div>
 										<div class="events__video">
+											{% if event.locationLink %}
 											<div class="events__video-wrap js-video-wrap">
 												<div>
 													<iframe class="js-video" width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
+											{% endif %}
 										</div>
 									</div>
 								</div>
@@ -89,11 +93,13 @@
 										<div class="events__stats">{{ event.description | safe }}</div>
 										<div class="events__links">{{ event.location | safe }}</div>
 										<div class="events__video">
+											{% if event.locationLink %}
 											<div class="events__video-wrap js-video-wrap">
 												<div>
 													<iframe class="js-video" width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 												</div>
 											</div>
+											{% endif %}
 										</div>
 									</div>
 								</div>
