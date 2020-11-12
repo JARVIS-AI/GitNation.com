@@ -65,12 +65,3 @@ tabClose.on('click', function() {
 });
 
 initiateTabRoute();
-
-const onEvent = ({ type, payload }) => {
-  if (type === 'click' && payload.link && payload.link.startsWith('#expo')) {
-    const tab = $('.js-tab-link#expo');
-    switchTab(tab);
-    tab.get(0).scrollIntoView();
-  }
-};
-window.eventsBus && window.eventsBus.subscribe(onEvent);

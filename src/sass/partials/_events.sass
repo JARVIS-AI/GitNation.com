@@ -167,16 +167,26 @@
 		display: flex
 		font-size: 20px
 
+		+sm
+			margin: 0 0 0 -20px
+			overflow-x: auto
+			padding: 0 20px 6px
+
 	&__btn
 		position: relative
-		height: 42px
+		padding: 10px 0
 		display: flex
 		align-items: center
 		cursor: pointer
 		line-height: 1.24
+		+sm
+			font-size: 16px
+			height: auto
 
 		&:not(:first-child)
 			margin: 0 0 0 50px
+			+sm
+				margin: 0 0 0 30px
 
 		&:after
 			content: ''
