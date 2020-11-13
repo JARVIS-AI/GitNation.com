@@ -12,6 +12,38 @@
 				</div>
 
 				<div class="events-tabs__tabs">
+					<div class="events-tabs__tab js-tab" data-tab="broadcasted-events">
+						<ul class="events">
+							{% for event in extendeds.eventBroadcasted %}
+							<li class="events__item">
+								<div class="events__img-wrap">
+									<a href="{{ event.registerLink | safe }}">
+										<img src="{{ event.image.url }}">
+									</a>
+								</div>
+								<div class="events__content">
+									<div class="events__title">{{ event.title | safe }}</div>
+									<div class="events__desc">{{ event.subtitle | safe }}</div>
+
+									<div class="events__info">
+										<div class="events__stats">{{ event.description | safe }}</div>
+										<div class="events__links">{{ event.location | safe }}</div>
+										<div class="events__video">
+											{% if event.locationLink %}
+											<div class="events__video-wrap js-video-wrap">
+												<div>
+													<iframe class="js-video" width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
+											</div>
+											{% endif %}
+										</div>
+									</div>
+								</div>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+
 					<div class="events-tabs__tab js-tab is-active" data-tab="conferences">
 						<ul class="events">
 							{% for event in extendeds.eventConferences %}
@@ -47,38 +79,6 @@
 					<div class="events-tabs__tab js-tab" data-tab="community-meetups">
 						<ul class="events">
 							{% for event in extendeds.eventMeetups %}
-							<li class="events__item">
-								<div class="events__img-wrap">
-									<a href="{{ event.registerLink | safe }}">
-										<img src="{{ event.image.url }}">
-									</a>
-								</div>
-								<div class="events__content">
-									<div class="events__title">{{ event.title | safe }}</div>
-									<div class="events__desc">{{ event.subtitle | safe }}</div>
-
-									<div class="events__info">
-										<div class="events__stats">{{ event.description | safe }}</div>
-										<div class="events__links">{{ event.location | safe }}</div>
-										<div class="events__video">
-											{% if event.locationLink %}
-											<div class="events__video-wrap js-video-wrap">
-												<div>
-													<iframe class="js-video" width="560" height="315" src="{{ event.locationLink | safe }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-												</div>
-											</div>
-											{% endif %}
-										</div>
-									</div>
-								</div>
-							</li>
-							{% endfor %}
-						</ul>
-					</div>
-
-					<div class="events-tabs__tab js-tab" data-tab="broadcasted-events">
-						<ul class="events">
-							{% for event in extendeds.eventBroadcasted %}
 							<li class="events__item">
 								<div class="events__img-wrap">
 									<a href="{{ event.registerLink | safe }}">
