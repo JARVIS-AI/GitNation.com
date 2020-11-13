@@ -10886,11 +10886,6 @@ no-case@^3.0.3:
     lower-case "^2.0.1"
     tslib "^1.10.0"
 
-node-bin-setup@^1.0.0:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
-  integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
-
 node-dir@^0.1.10:
   version "0.1.17"
   resolved "https://registry.yarnpkg.com/node-dir/-/node-dir-0.1.17.tgz#5f5665d93351335caabef8f1c554516cf5f1e4e5"
@@ -11038,13 +11033,6 @@ node.extend@^2.0.0:
   dependencies:
     has "^1.0.3"
     is "^3.2.1"
-
-node@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/node/-/node-10.0.0.tgz#d998340e4bbba200134c1b0376ef79810ca18adb"
-  integrity sha512-Ps0lFNyTDEzH8yqCZ3hBXARs+H28dn1cmJt2oxWgqIdMvt0+SByZuiA12mEV+akVjXxkSuuaBH8I92C0SrnFkQ==
-  dependencies:
-    node-bin-setup "^1.0.0"
 
 "nopt@2 || 3":
   version "3.0.6"
