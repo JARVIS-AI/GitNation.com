@@ -12,7 +12,7 @@
 				</div>
 
 				<div class="events-tabs__tabs">
-					<div class="events-tabs__tab js-tab" data-tab="broadcasted-events">
+					<div class="events-tabs__tab js-tab is-active" data-tab="broadcasted-events">
 						<ul class="events">
 							{% for event in extendeds.eventBroadcasted %}
 							<li class="events__item">
@@ -44,7 +44,7 @@
 						</ul>
 					</div>
 
-					<div class="events-tabs__tab js-tab is-active" data-tab="conferences">
+					<div class="events-tabs__tab js-tab" data-tab="conferences">
 						<ul class="events">
 							{% for event in extendeds.eventConferences %}
 							<li class="events__item">
