@@ -2,3 +2,7 @@
 .gitignore
 node_modules
 css
+
+build/
+
+content-log.json
