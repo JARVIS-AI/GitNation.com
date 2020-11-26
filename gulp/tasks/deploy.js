@@ -13,22 +13,7 @@ gulp.task('deploy', function() {
     log: gutil.log
   });
 
-  gulp.src(['./build/**/*.*'])
-    .pipe(conn.newer(remotePath))
+  return gulp.src(['./build/**/*.*'])
+    .pipe(conn.differentSize(remotePath))
     .pipe(conn.dest(remotePath));
-
-  gulp
-    .src(['./sponsors/**/*.*', '!./sponsors/node_modules/**/*.*'])
-    .pipe(conn.dest(`${remotePath}/sponsors`));
-
-  // uncomment to deploy last year versions
-  // gulp.src([
-  //   './2018/**/*.*'
-  // ])
-  //   .pipe(conn.dest(`${remotePath}/2018`));
-  //
-  // gulp.src([
-  //   './2017/**/*.*'
-  // ])
-  //   .pipe(conn.dest(`${remotePath}/2017`));
 });
