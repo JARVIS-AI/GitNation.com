@@ -10,10 +10,35 @@ gulp.task('deploy', function() {
     host: 'gold.elastictech.org',
     user: args.user,
     password: args.password,
-    log: gutil.log
+    log: gutil.log,
+    parallel: 2,
   });
 
-  return gulp.src(['./build/**/*.*'])
+  // Always deploy HTML
+  gulp.src([
+    './build/*.*'
+  ])
+    .pipe(conn.dest(remotePath));
+
+  // Always deploy CSS
+  gulp.src([
+    './build/css/**/*.*'
+  ])
+    .pipe(conn.dest('/css'));
+
+  // Always deploy JS
+  gulp.src([
+    './build/js/**/*.*'
+  ])
+    .pipe(conn.dest('/js'));
+
+  // Compare size of other files before deploy
+  gulp.src([
+    './build/**/*.*',
+    '!./build/*.*',
+    '!./build/css/**/*.*',
+    '!./build/js/**/*.*'
+  ])
     .pipe(conn.differentSize(remotePath))
     .pipe(conn.dest(remotePath));
 });
