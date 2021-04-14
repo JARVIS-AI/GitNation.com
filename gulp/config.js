@@ -16,6 +16,7 @@ const config = {
     // path for sass files that will be generated automatically via some of tasks
     sassGen: 'src/sass/generated',
     js: 'src/js',
+    css: 'src/css',
     img: 'src/img',
     pic: 'src/pic',
     svg: 'src/img/svg',

@@ -42,12 +42,24 @@ gulp.task('copy:video', function() {
     .src([config.src.video + '/*.{mp4,webm,mov}'])
     .pipe(gulp.dest(config.dest.video));
 });
+gulp.task('copy:legacy-css', function() {
+  return gulp
+    .src([config.src.css + '/legacy-*.css'])
+    .pipe(gulp.dest(config.dest.css));
+});
+gulp.task('copy:legacy-js', function() {
+  return gulp
+    .src([config.src.js + '/legacy-*.js'])
+    .pipe(gulp.dest(config.dest.js));
+});
 
 gulp.task('copy', [
   'copy:img',
   'copy:pic',
   'copy:video',
   'copy:rootfiles',
+  'copy:legacy-css',
+  'copy:legacy-js',
   // 'copy:lib',
   // 'copy:data',
   'copy:fonts',
