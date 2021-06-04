@@ -48,29 +48,12 @@
   <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
-
-      const GA_LOCAL_STORAGE_KEY = 'ga:clientId';
-      const nanoid=(t=21)=>{let e="",r=crypto.getRandomValues(new Uint8Array(t));for(;t--;){let n=63&r[t];e+=n<36?n.toString(36):n<62?(n-26).toString(36).toUpperCase():n<63?"_":"-"}return e};
-      let GAClientId;
-
-      if (window.localStorage) {
-        if (localStorage.getItem(GA_LOCAL_STORAGE_KEY)) {
-          GAClientId = localStorage.getItem(GA_LOCAL_STORAGE_KEY)
-        } else {
-          const userId = nanoid();
-          GAClientId = userId;
-          setTimeout(() => {
-            window.localStorage.setItem(GA_LOCAL_STORAGE_KEY, userId)
-          }, 100)
-        }
-      }
-
       gtag('js', new Date());
-      gtag('config', 'UA-164513444-3', {
-        send_page_view: true,
-        client_storage: 'none',
-        client_id: GAClientId,
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied'
       });
+      gtag('config', 'UA-164513444-3');
   </script>
 
   <!-- Global site tag (gtag.js) - Google Ads: 805657772 -->
